@@ -1,0 +1,11 @@
+with upcore;
+with stdlib;
+
+namespace HelloWorldDemo {
+        class Program {
+                public Main() void {
+                        var hello String = "Hello, World!";
+                        stdio.stdout(hello);
+                    }
+            }
+    }
